@@ -84,6 +84,7 @@ UE4Source/Saved/
 #Content/Sound/Music/OST/1978
 #UE4Source/Content/Sound/Music/OST/1978
 
+
 #Temp Source Upload Ignore Chunks
 #Content/UE4Source/Content/Meshes
 #UE4Source/Content/Meshes
@@ -94,5 +95,5 @@ UE4Source/Saved/
 #Content/UE4Source/Content/Textures
 #UE4Source/Content/Textures
 
-Content/UE4Source/Content/StarterContent
-UE4Source/Content/StarterContent
+#Content/UE4Source/Content/StarterContent
+#UE4Source/Content/StarterContent
