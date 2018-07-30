@@ -1,0 +1,357 @@
+// Mixamo Animations Retargeting to UE4 Mannequin - In Place - script by Nicolas Esposito
+
+
+select -r mixamorig:Hips ;
+select -add pelvis ;
+doCreateOrientConstraintArgList 1 { "0","270","0","90","0","0","0","1","","0" };
+orientConstraint -offset 270 0 90 -weight 1;
+// Result: pelvis_orientConstraint1 // 
+
+select -r mixamorig:Spine ;
+select -add spine_01 ;
+doCreateOrientConstraintArgList 1 { "0","270","0","90","0","0","0","1","","0" };
+orientConstraint -offset 270 0 90 -weight 1;
+// Result: spine_01_orientConstraint1 // 
+
+select -r mixamorig:Spine1 ;
+select -add spine_02 ;
+doCreateOrientConstraintArgList 1 { "0","270","0","90","0","0","0","1","","0" };
+orientConstraint -offset 270 0 90 -weight 1;
+// Result: spine_02_orientConstraint1 // 
+
+select -r mixamorig:Spine2 ;
+select -add spine_03 ;
+doCreateOrientConstraintArgList 1 { "0","270","0","90","0","0","0","1","","0" };
+orientConstraint -offset 270 0 90 -weight 1;
+// Result: spine_03_orientConstraint1 // 
+
+
+// Head
+
+
+select -r mixamorig:Neck ;
+select -add neck_01 ;
+doCreateOrientConstraintArgList 1 { "0","270","0","90","0","0","0","1","","0" };
+orientConstraint -offset 270 0 90 -weight 1;
+// Result: neck_01_orientConstraint1 // 
+
+select -r mixamorig:Head ;
+select -add head ;
+doCreateOrientConstraintArgList 1 { "0","270","0","90","0","0","0","1","","0" };
+orientConstraint -offset 270 0 90 -weight 1;
+// Result: head_orientConstraint1 // 
+
+
+// Left Arm
+
+
+select -r mixamorig:LeftShoulder ;
+select -add clavicle_l ;
+doCreateOrientConstraintArgList 1 { "0","180","0","90","0","0","0","1","","0" };
+orientConstraint -offset 180 0 90 -weight 1;
+// Result: clavicle_l_orientConstraint1 // 
+
+select -r mixamorig:LeftArm ;
+select -add upperarm_l ;
+doCreateOrientConstraintArgList 1 { "0","180","0","90","0","0","0","1","","0" };
+orientConstraint -offset 180 0 90 -weight 1;
+// Result: upperarm_l_orientConstraint1 // 
+
+select -r mixamorig:LeftForeArm ;
+select -add lowerarm_l ;
+doCreateOrientConstraintArgList 1 { "0","180","0","90","0","0","0","1","","0" };
+orientConstraint -offset 180 0 90 -weight 1;
+// Result: lowerarm_l_orientConstraint1 // 
+
+select -r mixamorig:LeftHand ;
+select -add hand_l ;
+doCreateOrientConstraintArgList 1 { "0","90","0","90","0","0","0","1","","0" };
+orientConstraint -offset 90 0 90 -weight 1;
+// Result: hand_l_orientConstraint1 // 
+
+// Left Hand Fingers
+
+
+select -r mixamorig:LeftHandIndex1 ;
+select -add index_01_l ;
+doCreateOrientConstraintArgList 1 { "0","90","0","90","0","0","0","1","","0" };
+orientConstraint -offset 90 0 90 -weight 1; 
+
+select -r mixamorig:LeftHandIndex2 ;
+select -add index_02_l ;
+doCreateOrientConstraintArgList 1 { "0","90","180","-90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 -90 -weight 1;
+// Result: index_02_l_orientConstraint1 // 
+
+select -r mixamorig:LeftHandIndex3 ;
+select -add index_03_l ;
+doCreateOrientConstraintArgList 1 { "0","-90","180","-90","0","0","0","1","","0" };
+orientConstraint -offset -90 180 -90 -weight 1;
+// Result: index_03_l_orientConstraint1 // 
+
+
+select -r mixamorig:LeftHandMiddle1 ;
+select -add middle_01_l ;
+doCreateOrientConstraintArgList 1 { "0","90","0","90","0","0","0","1","","0" };
+orientConstraint -offset 90 0 90 -weight 1;
+// Result: middle_01_l_orientConstraint1 // 
+
+select -r mixamorig:LeftHandMiddle2 ;
+select -add middle_02_l ;
+doCreateOrientConstraintArgList 1 { "0","90","0","90","0","0","0","1","","0" };
+orientConstraint -offset 90 0 90 -weight 1;
+// Result: middle_02_l_orientConstraint1 // 
+
+select -r mixamorig:LeftHandMiddle3 ;
+select -add middle_03_l ;
+doCreateOrientConstraintArgList 1 { "0","90","0","90","0","0","0","1","","0" };
+orientConstraint -offset 90 0 90 -weight 1;
+// Result: middle_03_l_orientConstraint1 // 
+
+
+select -r mixamorig:LeftHandRing1 ;
+select -add ring_01_l ;
+doCreateOrientConstraintArgList 1 { "0","90","0","90","0","0","0","1","","0" };
+orientConstraint -offset 90 0 90 -weight 1;
+// Result: ring_01_l_orientConstraint1 // 
+
+select -r mixamorig:LeftHandRing2 ;
+select -add ring_02_l ;
+doCreateOrientConstraintArgList 1 { "0","90","0","90","0","0","0","1","","0" };
+orientConstraint -offset 90 0 90 -weight 1;
+// Result: ring_02_l_orientConstraint1 // 
+
+select -r mixamorig:LeftHandRing3 ;
+select -add ring_03_l ;
+doCreateOrientConstraintArgList 1 { "0","90","0","90","0","0","0","1","","0" };
+orientConstraint -offset 90 0 90 -weight 1;
+// Result: ring_03_l_orientConstraint1 // 
+
+
+select -r mixamorig:LeftHandPinky1 ;
+select -add pinky_01_l ;
+doCreateOrientConstraintArgList 1 { "0","90","0","90","0","0","0","1","","0" };
+orientConstraint -offset 90 0 90 -weight 1;
+// Result: pinky_01_l_orientConstraint1 // 
+
+select -r mixamorig:LeftHandPinky2 ;
+select -add pinky_02_l ;
+doCreateOrientConstraintArgList 1 { "0","90","0","90","0","0","0","1","","0" };
+orientConstraint -offset 90 0 90 -weight 1;
+// Result: pinky_02_l_orientConstraint1 // 
+
+select -r mixamorig:LeftHandPinky3 ;
+select -add pinky_03_l ;
+doCreateOrientConstraintArgList 1 { "0","90","0","90","0","0","0","1","","0" };
+orientConstraint -offset 90 0 90 -weight 1;
+// Result: pinky_03_l_orientConstraint1 // 
+
+
+select -r mixamorig:LeftHandThumb1 ;
+select -add thumb_01_l ;
+doCreateOrientConstraintArgList 1 { "0","180","0","90","0","0","0","1","","0" };
+orientConstraint -offset 180 0 90 -weight 1;
+// Result: thumb_01_l_orientConstraint1 // 
+
+select -r mixamorig:LeftHandThumb2 ;
+select -add thumb_02_l ;
+doCreateOrientConstraintArgList 1 { "0","180","0","90","0","0","0","1","","0" };
+orientConstraint -offset 180 0 90 -weight 1;
+// Result: thumb_02_l_orientConstraint1 // 
+
+select -r mixamorig:LeftHandThumb3 ;
+select -add thumb_03_l ;
+doCreateOrientConstraintArgList 1 { "0","180","0","90","0","0","0","1","","0" };
+orientConstraint -offset 180 0 90 -weight 1;
+// Result: thumb_03_l_orientConstraint1 //
+
+
+// Right Arm
+
+
+select -r mixamorig:RightShoulder ;
+select -add clavicle_r ;
+doCreateOrientConstraintArgList 1 { "0","0","0","270","0","0","0","1","","0" };
+orientConstraint -offset 0 0 270 -weight 1;
+// Result: clavicle_r_orientConstraint1 // 
+
+select -r mixamorig:RightArm ;
+select -add upperarm_r ;
+doCreateOrientConstraintArgList 1 { "0","0","0","270","0","0","0","1","","0" };
+orientConstraint -offset 0 0 270 -weight 1;
+// Result: upperarm_r_orientConstraint1 // 
+
+select -r mixamorig:RightForeArm ;
+select -add lowerarm_r ;
+doCreateOrientConstraintArgList 1 { "0","0","0","270","0","0","0","1","","0" };
+orientConstraint -offset 0 0 270 -weight 1;
+// Result: lowerarm_r_orientConstraint1 // 
+
+select -r mixamorig:RightHand ;
+select -add hand_r ;
+doCreateOrientConstraintArgList 1 { "0","-90","0","270","0","0","0","1","","0" };
+orientConstraint -offset -90 0 270 -weight 1;
+// Result: hand_r_orientConstraint1 // 
+
+
+// Right Fingers
+
+
+select -r mixamorig:RightHandIndex1 ;
+select -add index_01_r ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+// Result: index_01_r_orientConstraint1 //
+
+select -r mixamorig:RightHandIndex2 ;
+select -add index_02_r ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+// Result: index_02_r_orientConstraint1 // 
+
+select -r mixamorig:RightHandIndex3 ;
+select -add index_03_r ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+// Result: index_03_r_orientConstraint1 // 
+
+
+select -r mixamorig:RightHandMiddle1 ;
+select -add middle_01_r ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+// Result: middle_01_r_orientConstraint1 // 
+
+select -r mixamorig:RightHandMiddle2 ;
+select -add middle_02_r ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+// Result: middle_02_r_orientConstraint1 // 
+
+select -r mixamorig:RightHandMiddle3 ;
+select -add middle_03_r ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+// Result: middle_03_r_orientConstraint1 // 
+
+
+select -r mixamorig:RightHandRing1 ;
+select -add ring_01_r ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+// Result: ring_01_r_orientConstraint1 //
+
+select -r mixamorig:RightHandRing2 ;
+select -add ring_02_r ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+// Result: ring_02_r_orientConstraint1 // 
+
+select -r mixamorig:RightHandRing3 ;
+select -add ring_03_r ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+// Result: ring_03_r_orientConstraint1 // 
+
+
+select -r mixamorig:RightHandPinky1 ;
+select -add pinky_01_r ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+// Result: pinky_01_r_orientConstraint1 // 
+
+select -r mixamorig:RightHandPinky2 ;
+select -add pinky_02_r ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+// Result: pinky_02_r_orientConstraint1 // 
+
+select -r mixamorig:RightHandPinky3 ;
+select -add pinky_03_r ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+// Result: pinky_03_r_orientConstraint1 // 
+
+
+select -r mixamorig:RightHandThumb1 ;
+select -add thumb_01_r ;
+doCreateOrientConstraintArgList 1 { "0","180","180","90","0","0","0","1","","0" };
+orientConstraint -offset 180 180 90 -weight 1;
+// Result: thumb_01_r_orientConstraint1 // 
+
+select -r mixamorig:RightHandThumb2 ;
+select -add thumb_02_r ;
+doCreateOrientConstraintArgList 1 { "0","180","180","90","0","0","0","1","","0" };
+orientConstraint -offset 180 180 90 -weight 1;
+// Result: thumb_02_r_orientConstraint1 // 
+
+select -r mixamorig:RightHandThumb3 ;
+select -add thumb_03_r ;
+doCreateOrientConstraintArgList 1 { "0","180","180","90","0","0","0","1","","0" };
+orientConstraint -offset 180 180 90 -weight 1;
+// Result: thumb_03_r_orientConstraint1 // 
+
+
+// Left Leg
+
+
+select -r mixamorig:LeftUpLeg ;
+select -add thigh_l ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+// Result: thigh_l_orientConstraint1 // 
+
+select -r mixamorig:LeftLeg ;
+select -add calf_l ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+// Result: calf_l_orientConstraint1 // 
+
+select -r mixamorig:LeftFoot ;
+select -add foot_l ;
+doCreateOrientConstraintArgList 1 { "0","90","237","90","0","0","0","1","","0" };
+orientConstraint -offset 90 240 90 -weight 1;
+// Result: foot_l_orientConstraint1 // 
+
+select -r mixamorig:LeftToeBase ;
+select -add ball_l ;
+doCreateOrientConstraintArgList 1 { "0","90","0","90","0","0","0","1","","0" };
+orientConstraint -offset 90 0 90 -weight 1;
+// Result: ball_l_orientConstraint1 // 
+
+
+// Right Leg
+
+
+select -r mixamorig:RightUpLeg ;
+select -add thigh_r ;
+doCreateOrientConstraintArgList 1 { "0","90","0","90","0","0","0","1","","0" };
+orientConstraint -offset 90 0 90 -weight 1;
+// Result: thigh_r_orientConstraint1 // 
+
+select -r mixamorig:RightLeg ;
+select -add calf_r ;
+doCreateOrientConstraintArgList 1 { "0","90","0","90","0","0","0","1","","0" };
+orientConstraint -offset 90 0 90 -weight 1;
+// Result: calf_r_orientConstraint1 // 
+
+select -r mixamorig:RightFoot ;
+select -add foot_r ;
+doCreateOrientConstraintArgList 1 { "0","90","57","90","0","0","0","1","","0" };
+orientConstraint -offset 90 57 90 -weight 1;
+// Result: foot_r_orientConstraint1 // 
+
+
+select -r mixamorig:RightToeBase ;
+select -add ball_r ;
+doCreateOrientConstraintArgList 1 { "0","90","180","90","0","0","0","1","","0" };
+orientConstraint -offset 90 180 90 -weight 1;
+
+
+// Shoulders Fix
+
+setAttr "clavicle_l_orientConstraint1.offsetY" 20;
+setAttr "clavicle_l_orientConstraint1.offsetZ" 70;
+
+setAttr "clavicle_r_orientConstraint1.offsetZ" 290;
+setAttr "clavicle_r_orientConstraint1.offsetY" -20;
