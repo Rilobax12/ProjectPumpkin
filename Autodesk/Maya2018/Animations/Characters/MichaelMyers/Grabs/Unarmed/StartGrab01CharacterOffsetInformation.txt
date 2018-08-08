@@ -1,0 +1,17 @@
+Player:
+
+Translate X = 0
+Translate Y = 0
+Translate Z = 0
+Rotation X = 0
+Rotation Y = 0
+Rotation Z = 0
+
+NPC:
+
+Translate X = 0
+Translate Y = -55
+Translate Z = 0
+Rotation X = 0
+Rotation Y = 0
+Rotation Z = 180
