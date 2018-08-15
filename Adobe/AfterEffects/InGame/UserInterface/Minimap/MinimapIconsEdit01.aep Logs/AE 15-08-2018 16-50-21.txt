@@ -1,0 +1,27 @@
+Adobe After Effects v11.0 (Windows 64) render log for project “MinimapIconsEdit01.aep”
+
+Rendering started on 15/08/2018 at 16:50:21
+
+
+  15/08/2018 16:50:21: Starting composition “PlayerIcon_Visible”.
+
+
+  Output To: C:\Users\Cole\Documents\GitHub\ProjectPumpkin\Adobe\AfterEffects\InGame\UserInterface\Minimap\PlayerIcons\T_PlayerIcon_Visible01.png
+  
+  15/08/2018 16:50:21: Finished composition “PlayerIcon_Visible”.
+
+
+
+  15/08/2018 16:50:22: Starting composition “PlayerIcon_Hidden”.
+
+
+  Output To: C:\Users\Cole\Documents\GitHub\ProjectPumpkin\Adobe\AfterEffects\InGame\UserInterface\Minimap\PlayerIcons\T_PlayerIcon_Hidden01.png
+  
+  15/08/2018 16:50:22: Finished composition “PlayerIcon_Hidden”.
+
+
+
+  Total Time Elapsed: 1 Seconds
+
+Log closed on 15/08/2018 at 16:50:22
+
