@@ -1,0 +1,45 @@
+newmtl Hair:initialShadingGroup
+illum 4
+Kd 0.06 0.02 0.01
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Human_Base_Mark1:lambert6SG
+illum 4
+Kd 0.37 0.20 0.12
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Human_Base_Mark1-NM.tga -bm 1
+Ni 1.00
+newmtl Shirt_MK1:lambert5SG
+illum 4
+Kd 0.36 0.42 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Mask-NM_.tga -bm 1
+Ni 1.00
+newmtl lambert3SG
+illum 4
+Kd 0.02 0.04 0.13
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Overalls-NM.tga -bm 0.419355
+Ni 1.00
+newmtl shoes:lambert4SG
+illum 4
+Kd 0.03 0.04 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
