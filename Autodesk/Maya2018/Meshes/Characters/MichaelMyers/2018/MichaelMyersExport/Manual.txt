@@ -1,0 +1,14 @@
+
+
+1. Open AnimRigs folder, Click Micheal_Myers.
+
+2. Reference File Not found, will appear , click browse...
+
+3.Paste this into browser, 
+look in ' E:\Asteroid Arts\ProjectPumpkin\Autodesk\Maya2018\Meshes\Characters\MichaelMyers\2018\MichaelMyersExport\ExportFiles'
+
+click Michael_Myers_Export.mb
+
+4. Have Fun or Dont...
+
+
